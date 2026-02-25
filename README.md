@@ -1,10 +1,10 @@
-# 📦 Inventario API
+# Inventario API
 
 API REST completa para gestión de catálogo de productos e inventario, construida con **ASP.NET Core 8** y **Entity Framework Core**, con autenticación **JWT**, base de datos **SQLite** y documentación interactiva con **Swagger**.
 
 ---
 
-## 🚀 Tecnologías
+## Tecnologías
 
 | Tecnología | Versión |
 |---|---|
@@ -17,7 +17,7 @@ API REST completa para gestión de catálogo de productos e inventario, construi
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 InventarioAPI/
@@ -49,7 +49,7 @@ InventarioAPI/
 
 ---
 
-## ⚙️ Instalación y Ejecución
+## Instalación y Ejecución
 
 ### Prerrequisitos
 
@@ -82,7 +82,7 @@ http://localhost:5000
 
 ---
 
-## 🔐 Autenticación JWT
+## Autenticación JWT
 
 La API usa **JWT Bearer Tokens**. Para obtener un token:
 
@@ -123,16 +123,16 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIs...
 
 ---
 
-## 📋 Endpoints
+## Endpoints
 
-### 🔑 Auth
+### Auth
 
 | Método | Ruta | Descripción | Auth |
 |---|---|---|---|
-| POST | `/api/auth/login` | Iniciar sesión | ❌ |
-| POST | `/api/auth/registro` | Registrar usuario | ❌ |
+| POST | `/api/auth/login` | Iniciar sesión |
+| POST | `/api/auth/registro` | Registrar usuario |
 
-### 📦 Productos
+### Productos
 
 | Método | Ruta | Descripción | Rol mínimo |
 |---|---|---|---|
@@ -155,7 +155,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIs...
 | `pagina` | int | Número de página (default: 1) |
 | `tamanoPagina` | int | Registros por página (default: 10) |
 
-### 🏷️ Categorías
+### Categorías
 
 | Método | Ruta | Descripción | Rol mínimo |
 |---|---|---|---|
@@ -167,7 +167,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIs...
 
 ---
 
-## 📨 Ejemplos de Peticiones
+## Ejemplos de Peticiones
 
 ### Crear producto
 ```json
@@ -207,7 +207,7 @@ PATCH /api/productos/1/stock
 
 ---
 
-## 🔧 Configuración
+## Configuración
 
 Edita `appsettings.json` para personalizar:
 
@@ -225,11 +225,11 @@ Edita `appsettings.json` para personalizar:
 }
 ```
 
-> ⚠️ **En producción**: usa variables de entorno o Azure Key Vault para la `SecretKey`. Nunca la subas al repositorio.
+> **En producción**: usa variables de entorno o Azure Key Vault para la `SecretKey`. Nunca la subas al repositorio.
 
 ---
 
-## 🏗️ Arquitectura
+## Arquitectura
 
 ```
 HTTP Request
@@ -249,7 +249,7 @@ HTTP Request
 
 ---
 
-## 🧪 Pruebas Rápidas con cURL
+## Pruebas Rápidas con cURL
 
 ```bash
 # Login
@@ -268,13 +268,13 @@ curl "http://localhost:5000/api/productos?categoriaId=1&pagina=1&tamanoPagina=5"
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 MIT License — libre para uso personal y comercial.
 
 ---
 
-## 🤝 Contribuciones
+## Contribuciones
 
 1. Haz fork del repositorio
 2. Crea una rama: `git checkout -b feature/nueva-funcionalidad`
