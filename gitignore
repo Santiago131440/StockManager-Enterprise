@@ -1,0 +1,28 @@
+## .NET / ASP.NET Core
+*.user
+*.suo
+*.userosscache
+*.userprefs
+.vs/
+bin/
+obj/
+*.db
+*.db-shm
+*.db-wal
+
+## Publicación
+publish/
+**/Properties/launchSettings.json
+
+## Logs
+logs/
+*.log
+
+## Variables de entorno (¡NUNCA subir!)
+.env
+appsettings.Development.json
+appsettings.Production.json
+
+## OS
+.DS_Store
+Thumbs.db
