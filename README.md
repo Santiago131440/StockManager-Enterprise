@@ -1,4 +1,4 @@
-# Inventario API
+# StockManager-Enterprise
 
 API REST completa para gestión de catálogo de productos e inventario, construida con **ASP.NET Core 8** y **Entity Framework Core**, con autenticación **JWT**, base de datos **SQLite** y documentación interactiva con **Swagger**.
 
