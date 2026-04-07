@@ -274,6 +274,7 @@ MIT License — libre para uso personal y comercial.
 ---
 
 ## Contribuciones
+Santiago Sterling
 
 1. Haz fork del repositorio
 2. Crea una rama: `git checkout -b feature/nueva-funcionalidad`
