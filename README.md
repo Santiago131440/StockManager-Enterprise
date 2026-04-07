@@ -60,7 +60,6 @@ InventarioAPI/
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/tu-usuario/inventario-api.git
 cd inventario-api/InventarioAPI
 
 # 2. Restaurar dependencias
