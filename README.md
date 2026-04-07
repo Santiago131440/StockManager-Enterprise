@@ -213,7 +213,7 @@ Edita `appsettings.json` para personalizar:
 ```json
 {
   "JwtSettings": {
-    "SecretKey": "TU_CLAVE_SECRETA_MUY_LARGA_AQUI",
+    "SecretKey": "TU_CLAVE_SECRETA_AQUI",
     "Issuer": "InventarioAPI",
     "Audience": "InventarioCliente",
     "ExpirationHours": 8
